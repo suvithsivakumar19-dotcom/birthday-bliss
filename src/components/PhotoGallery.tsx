@@ -5,6 +5,7 @@ import gallery2 from "@/assets/gallery2.jpg";
 import gallery3 from "@/assets/gallery3.jpg";
 import gallery4 from "@/assets/gallery4.jpg";
 import gallery5 from "@/assets/gallery5.jpg";
+import gallery6 from "@/assets/gallery6.jpg";
 
 interface Photo {
   id: string;
@@ -20,7 +21,7 @@ const DEFAULTS: Photo[] = [
   { id: "p3", url: gallery3, caption: "Posing with love ❤️" },
   { id: "p4", url: gallery4, caption: "Together is my favorite place 🌿" },
   { id: "p5", url: gallery5, caption: "Creating beautiful memories together 💫" },
-  { id: "p6", url: "", caption: "Tap to add another special moment..." },
+  { id: "p6", url: gallery6, caption: "Pure joy and laughter together ✨" },
 ];
 
 export function PhotoGallery() {
